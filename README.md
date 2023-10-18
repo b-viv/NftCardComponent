@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://b-viv.github.io/NftCardComponent/)
+- Solution URL: https://www.frontendmentor.io/solutions/nft-card-component-MLzt5gFA28
+- Live Site URL: https://b-viv.github.io/NftCardComponent/
 
 ## My process
 
@@ -31,4 +31,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/b-viv)
+- Frontend Mentor - https://www.frontendmentor.io/profile/b-viv
