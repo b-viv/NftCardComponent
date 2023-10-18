@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%); 
+    --Cyan: hsl(178, 100%, 50%);
+
+    --Very-dark-blue: hsl(217, 54%, 11%);  /*(main BG)*/
+    --Very-dark-blue-1: hsl(216, 50%, 16%); /*(card BG)*/
+    --Very-dark-blue-2: hsl(215, 32%, 27%); /*(line)*/
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px auto;
+    background-color: var(--Very-dark-blue);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    background-color: var(--Very-dark-blue-1);
+    box-shadow: 5px 5px 22px 15px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    border-radius: 12px;
+    padding: 25px;
+    
+}
+.equilibrium{
+    width: 320px;
+    border-radius: 12px;
+}
+.view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 276px;
+}
+.view img{
+    background-color: hsla(178, 100%, 50%, 0.5);
+    opacity: 0;
+    padding: 136px;
+    margin-top: -320px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.view img:hover{
+    opacity: 1;
+    border-radius: 12px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 25px 25px;
+}
+.title a{
+    text-decoration: none;
+    color: var(--White);
+    font-size: 21px;
+    font-weight: 600;
+}
+.note{
+    color: var(--Soft-blue);
+    font-weight: 400;
+    margin: 23px 0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ethereum, .time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ethereum p{
+    color: var(--Cyan);
+}
+.time p {
+    color: var(--Soft-blue);
+}
+.ethereum p,
+.time p{
+    padding-left: 10px;
+    font-size: 16px;
+}
+hr{
+    margin: 23px 0;
+    border: 1px solid hsla(215, 51%, 70%, 0.2);;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.info img{
+    width: 40px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+.info p{
+    margin-left: 10px;
+    color: var(--Soft-blue);
+}
+.info a{
+    text-decoration: none;
+    color: var(--White);
+}
+.title a:hover,
+.info a:hover{
+    color: var(--Cyan);
+}
+@media (max-width:410px){
+    .card{
+        width: 270px;
+    }
+    .image img{
+        width: 240px;
+    }
+    .image{
+        padding: 15px;
+    }
+    .view {
+        width: 240px;
+        height: 236px;
+    }
+    .view img {
+        padding: 106px;
+        margin-top: -340px;
+    }
+    .text{
+        margin-top: -90px;
+    }
+}
