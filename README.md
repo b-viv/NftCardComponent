@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: ([https://your-live-site-url.com](https://b-viv.github.io/NftCardComponent/))
+- Live Site URL: (https://b-viv.github.io/NftCardComponent/)
 
 ## My process
 
